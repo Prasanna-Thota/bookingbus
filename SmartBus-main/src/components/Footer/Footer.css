@@ -1,0 +1,126 @@
+/* Footer container */
+.footer-container {
+    bottom: 0;
+    margin: 20px 20px 20px 0px;
+    width: 100%;
+}
+
+/* Main footer section */
+.footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    font-family: 'Montserrat', Arial, sans-serif; /* Montserrat as primary font */
+}
+
+/* Footer content wrapper */
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 20px 80px 0; /* Adjusted margin */
+    margin-bottom: -5px; 
+}
+
+/* Individual footer section */
+.footer-section {
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+/* Footer logo */
+.footer-logo {
+    max-width: 200px;
+    margin-top: 10px;
+}
+
+/* Heading styles */
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* List styles */
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Montserrat', Arial, sans-serif; /* Montserrat as primary font */
+}
+
+/* Additional styles */
+.matter {
+    opacity: 0.8;
+    width: 210px; /* Set your desired width */
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* Footer bottom section */
+.footer-bottom {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 80px 0; /* Adjusted margin */
+    margin-bottom: -5px; /* Adjusted to align with the bottom */
+}
+
+/* Social icons */
+.social-icons a {
+    color: #666;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: 'Montserrat', Arial, sans-serif; /* Montserrat as primary font */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .footer-container {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .matter {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+
+    .footer-section p {
+        text-align: center;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+}

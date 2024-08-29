@@ -1,0 +1,79 @@
+.bookings-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.bookings-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sort-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.accordion-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary-left {
+    display: flex;
+    align-items: center;
+}
+
+.booking-info {
+    font-weight: bold;
+}
+
+.booking-id {
+    font-size: 14px;
+    margin-left: 20px; /* Added spacing between info and booking ID */
+}
+
+.summary-center {
+    flex-grow: 1; /* Ensure the date takes up remaining space */
+    text-align: right; 
+    margin-left: 50px;/* Align text to the right */
+}
+
+.booking-date {
+    font-size: 14px;
+}
+
+.booking-details {
+    margin-top: 20px;
+}
+
+.passengers-heading,
+.seats-heading {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.passengers-list,
+.seats-list-horizontal {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; /* Ensures seats wrap to the next line if needed */
+}
+
+.passengers-list li,
+.seats-list-horizontal li {
+    margin-right: 10px;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

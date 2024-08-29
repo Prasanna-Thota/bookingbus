@@ -1,0 +1,95 @@
+/* TrendingOffers.css */
+
+
+.offer-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+    border-radius: 40px;
+    z-index: 1; /* Ensure a higher z-index if necessary */
+    margin-top: -140px;
+  }
+  
+  
+  .offer-container:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .carousel-container {
+    position: relative;
+    overflow: hidden;
+    padding: 10px; /* Adjust padding as needed */
+  }
+  
+  .offer-paper {
+    min-width: 330px; /* Adjust as necessary */
+    height: 150px; /* Adjust as necessary */
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 10px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition for background-color */
+  }
+  
+  .offer-paper:hover {
+    background-color: rgba(255, 255, 255, 0); /* Remove white shade on hover */
+  }
+  
+  .offer-paper:hover::before,
+  .offer-paper:hover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%; /* Adjust width as needed */
+    background-color: rgba(255, 255, 255, 0); /* Remove white shade on hover */
+  }
+  
+  .offer-paper::before {
+    left: 0;
+  }
+  
+  .offer-paper::after {
+    right: 0;
+  }
+  
+  .offer-bg-0 {
+    background: linear-gradient(135deg, rgba(230, 70, 70, 0.7), rgba(255,0,0,0.5));
+  }
+  
+  .offer-bg-1 {
+    background: linear-gradient(135deg, rgba(79, 190, 79, 0.7), rgba(0,255,0,0.5));
+  }
+  
+  .offer-bg-2 {
+    background: linear-gradient(135deg, rgba(111, 111, 226, 0.7), rgba(0,0,255,0.5));
+  }
+  
+  .offer-bg-3 {
+    background: linear-gradient(135deg, rgba(207, 207, 90, 0.7), rgba(255,255,0,0.5));
+  }
+  
+  .offer-bg-4 {
+    background: linear-gradient(135deg, rgba(230, 70, 70, 0.7), rgba(255,0,0,0.5));
+  }
+  .offer-bg-5 {
+    background: linear-gradient(135deg, rgba(79, 190, 79, 0.7), rgba(0,255,0,0.5));
+  }
+  
+  .offer-bg-6 {
+    background: linear-gradient(135deg, rgba(111, 111, 226, 0.7), rgba(0,0,255,0.5));
+  }
+  
